@@ -18,6 +18,7 @@ function App() {
   
   const {author, quote} = phase;
 
+
   return (
     <div className="App" style={{backgroundColor: color}} >
       <Phase author={author} quote={quote} changeQuote={changeQuote} color={color}/>
